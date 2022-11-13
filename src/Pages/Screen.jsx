@@ -14,7 +14,7 @@ function Screen1() {
             navigate(`/Screen2`);
           }}
         >
-          Freinds Referred
+          Freinds Referred (click for screen-2 )
         </div>
       </div>
       <div className="first_content">

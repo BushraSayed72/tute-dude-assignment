@@ -15,7 +15,7 @@ function Screen2() {
           }}
         >
           {" "}
-          Refer & Earn &gt;{" "}
+          Refer & Earn &gt;(click for screen-1) {" "}
         </span>
       </div>
       <div className="first_container">
