@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 6px 5vw;
+  width:100%;
 }
 .logo_img {
   height: 60px;
@@ -163,6 +164,7 @@ padding: 20px;
 }
 .third-card {
   position: relative;
+  
 }
 .third-card::before {
   content: '';
@@ -175,6 +177,7 @@ padding: 20px;
     height: inherit;
     top: 0;
     left: 0;
+    border-radius: 20px;
 }
 .card_container {
   border: 1px solid;
@@ -209,7 +212,7 @@ padding: 20px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
-  border-radius: nullpx;
+
 }
 .card_content {
   height: 21px;
@@ -365,6 +368,10 @@ text-align: left;
 color: #800080;
 
 }
+.referral_code{
+  display: flex;
+  flex-direction: column;
+}
 /* .money{
   display: flex;
   gap: 2rem;
@@ -482,4 +489,50 @@ color: #800080;
   font-weight: 500;
   font-size: 16px;
 line-height: 24px;
+}
+@media (max-width:768px) {
+  .cards {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card_container {
+    width: 100%;
+  }
+  .third-card::before {
+    display: none;
+  }
+  .scnd_content {
+    padding: 10px;
+  }
+  .navbar ul li {
+    display: none;
+  }
+  .navbar ul li.active{
+    display: flex;
+  }
+
+  /* screne2 */
+  .box { 
+    width: 100%;
+  }
+  .first_container {
+    flex-direction: column;
+  }
+  .box_head {
+     flex-wrap: wrap;
+  }
+  .invite_friend_content {
+     max-width: 100%;
+     width: 100%;
+  }
+
+}
+@media (max-width: 380px){
+  .scnd_content {
+    padding: 5px;
+  } 
+  .box{
+    height:auto;
+  } 
+
 }

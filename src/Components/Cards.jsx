@@ -4,7 +4,7 @@ function Cards() {
   return (
     <>
       <div className="cards">
-        <div className="card_container">
+        <div className="card_container order-md-first order-sm-first">
           <div className="name_date">
             <p className="name">Dhiraj Saxena</p>
             <p className="date"> 14 Sep, 2022</p>
@@ -42,7 +42,7 @@ function Cards() {
           </div>
         </div>
 
-        <div className="card_container">
+        <div className="card_container order-md-second order-sm-second"  >
           <div className="name_date">
             <p className="name">Prafull Kumar</p>
             <p className="date"> 14 Sep, 2022</p>
@@ -80,9 +80,9 @@ function Cards() {
           </div>
         </div>
 
-        <div className="card_container third-card">
+        <div className="card_container third-card order-md-third order-sm-third">
           <div className="name_date">
-            <p className="name">Dhiraj Saxena</p>
+            <p className="name">Praful Kumar</p>
             <p className="date"> 14 Sep, 2022</p>
           </div>
           <div className="card_content">Courses Enrolled(6)</div>
