@@ -15,13 +15,12 @@ function Screen2() {
           }}
         >
           {" "}
-          Refer & Earn &gt;(click for screen-1) {" "}
+          Refer & Earn &gt;(click for screen-1){" "}
         </span>
       </div>
       <div className="first_container">
         <div className="box">
           <div className="box_head">
-
             <div className="box_container">
               <p>Referral Earning</p>
               <div className="money">
@@ -35,18 +34,16 @@ function Screen2() {
               </div>
             </div>
             <div className="box_container">
-              
-            <p>Wallet Balance</p>
+              <p>Wallet Balance</p>
               <div className="money">
-              <p className="five_hundred">₹ 500</p>
+                <p className="five_hundred">₹ 500</p>
               </div>
             </div>
-          </div>
-          <div className="button_withdraw">
-          <button className="withdraw">
-            <p>Withdraw Balance</p>
-          </button>
-
+            <div className="button_withdraw">
+              <button className="withdraw">
+                <p>Withdraw Balance</p>
+              </button>
+            </div>
           </div>
         </div>
         <div className="referral_code">
@@ -63,7 +60,8 @@ function Screen2() {
       <div className="who-enrolled">Friends Who Enrolled</div>
       <div className="terms who-enrolled-terms">Terms and Conditions</div>
     </div>
-  );
+
+);
 }
 
 export default Screen2;

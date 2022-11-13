@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Screen2 from './Pages/Screen2';
 import Screen from './Pages/Screen';
-import Cards from './Components/Cards';
+
 import { Route, Routes } from "react-router-dom";
 
 function App() {
