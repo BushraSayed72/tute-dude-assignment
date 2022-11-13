@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-serif";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 5vw;
+}
+.logo_img {
+  height: 60px;
+
+  /* padding: 6px; */
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  /* font-size: 18px; */
+  color: rgba(128, 0, 128, 0.25);
+}
+.navbar ul li.active {
+  color: #800080;
+}
+
+.logo_img {
+  height: 60px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 28px;
+  color: #800080;
+}
+.navbar ul li {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-weight: 500;
+  /* font-size: 18px; */
+  color: rgba(128, 0, 128, 0.25);
+}
+.navbar ul li.active {
+  color: #800080;
+}
+/* =========================================Screen-1============================= */
+
+.main_container {
+  padding: 0 11.5vw;
+}
+.mid_div {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.first_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.para_1 {
+  padding-bottom: 1rem;
+  color: #800080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.brdr_1 {
+  border: 1.5px solid #DFDFDF;
+border-radius: 10px;
+height: 50px;
+}
+.brdr_1 p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 10px;
+}
+.scnd_content {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+border-radius: 20px;
+padding: 20px;
+}
+.para_2 .p1 {
+  height: 21px;
+  width: 105px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  color: #800080;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.para_2 .p2 {
+  height: 24px;
+  width: 45px;
+  left: 0px;
+  top: 21px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.enrolled {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #800080;
+  margin-top: 66px;
+}
+.three {
+  color: #626262;
+}
+
+/* =================================cards_section===================== */
+.main_cards {
+  overflow: hidden;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  gap: 20px;
+  width: calc(100% + 81px);
+  overflow: hidden;
+}
+.third-card {
+  position: relative;
+}
+.third-card::before {
+  content: '';
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    width: -webkit-fill-available;
+    max-width: 302px;
+    /* width: 213px; */
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+.card_container {
+  border: 1px solid;
+  border-style: none;
+  height: 228px;
+  width: 358px;
+
+  top: 0px;
+  border-radius: 20px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+}
+.name_date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffff;
+}
+.name {
+  height: 24px;
+  left: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.date {
+  height: 21px;
+  width: 141px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  border-radius: nullpx;
+}
+.card_content {
+  height: 21px;
+  left: 20px;
+  top: 54px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.ux-ui {
+  border-radius: 20px;
+  height: 24px;
+  width: 50px;
+  left: 9px;
+  top: 4px;
+  border: 1px solid white;
+  text-align: center;
+}
+.third_content {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  gap: 8px;
+}
+
+.same {
+  height: 21px;
+  width: 38px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+.photoshop {
+  border-radius: 20px;
+  height: 24px;
+  width: 6rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.ilustrator {
+  border-radius: 20px;
+  height: 24px;
+  width: 6rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.fourth_content {
+  padding-top: 8px;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+.python {
+  border-radius: 20px;
+  height: 24px;
+  width: 4rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.mern {
+  border-radius: 20px;
+  height: 24px;
+  width: 4rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.java {
+  border-radius: 20px;
+  height: 24px;
+  width: 3.5rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.c {
+  border-radius: 20px;
+  height: 24px;
+  width: 3rem;
+  text-align: center;
+
+  border: 1px solid white;
+}
+.amount {
+  padding: 1rem 0 0 1rem;
+  height: 24px;
+  left: 20px;
+  top: 182px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.rupees {
+  height: 36px;
+  width: 55px;
+  left: 160px;
+  top: 176px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+}
+.terms {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #800080;
+  margin-top: 60px;
+}
+/* =================================Screen2===================== */
+.first_container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.box{
+  height: 188px;
+width: 486px;
+border-radius: 20px;
+background: #FFFFFF;
+box-shadow:0px 3px 100px 0px #0000001A;
+padding:1.5rem;
+
+}
+.box_head {
+  display: flex;
+  justify-content: space-between;
+}
+/* .box_container{
+  display: flex;
+  gap: 1rem;
+
+} */
+.box_container p{
+width: 111px;
+left: 2.5px;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #800080;
+
+}
+/* .money{
+  display: flex;
+  gap: 2rem;
+} */
+.money p{
+font-size: 30px;
+font-weight: 500;
+line-height: 48px;
+color: #000000;
+
+}
+/* .five_hundred{
+  padding-left:50px;
+} */
+.button_withdraw {
+  display: flex;
+  align-items: center;
+}
+.withdraw{
+width: 180px;
+height: 40px;
+left: 153px;
+top: 119px;
+background: #800080;
+border-radius: 20px;
+margin: 2rem 0 2rem 7rem;
+border-style: none;
+color: #FFFFFF;
+}
+
+.code_para {
+  height: 36px;
+width: 228px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+color: #800080;
+}
+.code{
+  
+  position:relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 1px;
+  border-radius: 10px;
+}
+.alpha{
+  background: white;
+  color:#800080;
+  border-radius: 10px;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 1.5rem;
+text-align: center;
+padding:15px 54px 15px 64px;
+
+
+
+}
+.question{
+  padding-top: 40px;
+  padding-bottom: 24px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+color: #800080;
+
+
+
+}
+/* ========================Screen2mid-content================================ */
+.mid_details{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.invite_friend{
+  display: flex;
+  /* flex-direction: ; */
+}
+.invite_friend_content {
+  max-width: 270px;
+}
+.border {
+  background: rgba(217, 217, 217, 0.25);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.who-enrolled {
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top: 60px;
+color: #800080;
+}
+.who-enrolled-terms {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.invite_friend_content:first-child {
+  font-weight: 500;
+}
+.invite-head{
+  font-weight: 500;
+  font-size: 16px;
+line-height: 24px;
+}
